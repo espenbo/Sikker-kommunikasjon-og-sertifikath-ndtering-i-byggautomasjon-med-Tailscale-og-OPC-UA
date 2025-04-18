@@ -1,0 +1,562 @@
+[Servers]
+0\Name=OPCUAServer@CC100-5A1614
+0\Connected=true
+0\ProjectServerId=0
+0\ServerUrl=opc.tcp://cc100-5a1614.taile222f.ts.net:4840
+0\Server.ApplicationUri=urn:CC100-5A1614:WAGO:WAGO%20751-9301%20Compact%20Controller%20100:OPCUA:Server
+0\Server.ProductUri=urn:WAGO:WAGO%20751-9301%20Compact%20Controller%20100:OPCUA:Server
+0\Server.ApplicationNameLocale=en-Us
+0\Server.ApplicationNameText=OPCUAServer@CC100-5A1614
+0\Server.ApplicationType=0
+0\Server.GatewayServerUri=
+0\Server.DiscoveryProfileUri=
+0\Server.NoOfDiscoveryUrls=1
+0\Server.DiscoveryUrl0=opc.tcp://CC100-5A1614:4840
+0\ServerCertificate="@ByteArray(0\x82\x3\xab\x30\x82\x2\x93\xa0\x3\x2\x1\x2\x2\x1\0\x30\r\x6\t*\x86H\x86\xf7\r\x1\x1\v\x5\0\x30#1!0\x1f\x6\x3U\x4\x3\f\x18OPCUAServer@CC100-5A16140\x1e\x17\r250323222758Z\x17\r330608222758Z0#1!0\x1f\x6\x3U\x4\x3\f\x18OPCUAServer@CC100-5A16140\x82\x1\"0\r\x6\t*\x86H\x86\xf7\r\x1\x1\x1\x5\0\x3\x82\x1\xf\0\x30\x82\x1\n\x2\x82\x1\x1\0\xcc*\xd6\xdd\xd6\xb9\xb0\xcb\xefg\xe7\x13\xc0\xa5\x34\x92\xcao\xfa\xfc\xba},\xcek\xc7\xbc\xbd|\xfg\xf3\xac\a\xec\xee\a\xf9\x7f\xeb\x61\xe4\xb8\xbc \xa6&\a\xd6\xea\b\x14\x97\x80\x16\xdb\xe3RZ\xd9\xab\n05\xe2\x61\xc0\x89\x46\xd8\x62\xa0GI\x93\x9b=\x96r\xdb\xbd\x8a\xf9\xef\xa3<\xf3\x62\0%\xdaT\xe2\xc4\x89\x34&\x87TH\xc9L\xe4j\xe6[\x86(19\xdb\xb2N\xde\xd2\x9e\x1\x31\x12(\xf2\xaf)\xbf\xda]\xb7\xea\x93\xcc`F\x90\xddY\x3zv\x92\x39\x9d$i\x1bN\x1av\xd5\x84!\x8b\xb7\x61L\x16\xeb\xdc#Q\xbc\xf2\xd0\x65\x66O\x8e\xe3p\xb5\x6!\xae\xdf\xac\xbe\xa1\xe0\x17\xe5\x96\xea\x87\xe\x14\x45\x8b\xc9\xfw\xa0\x1a\x9f\x99~\xc6Z\xf2\x88\xed\x83\v\x1cks\xd4]\xdah\x85ZA\xe0\xcc\xbd\xce\xdan\xb9x\x3\xec\xd7@\xe7\xa2\xc6.}\t3{\x8e\x63K1a^\xa1\x44?\x84\xed\xf4\xcb\xc6\x86\x87\x1cXV\xc4\xa7\xd1\xe0R\x19\x2\x3\x1\0\x1\xa3\x81\xe9\x30\x81\xe6\x30\xe\x6\x3U\x1d\xf\x1\x1\xff\x4\x4\x3\x2\x2\xf4\x30\x16\x6\x3U\x1d%\x1\x1\xff\x4\f0\n\x6\b+\x6\x1\x5\x5\a\x3\x1\x30h\x6\x3U\x1d\x11\x4\x61\x30_\x86Ourn:CC100-5A1614:WAGO:WAGO%20751-9301%20Compact%20Controller%20100:OPCUA:Server\x82\fCC100-5A16140\x1d\x6\x3U\x1d\xe\x4\x16\x4\x14\xc8\x88\x19\xff\t\xe2\xc6T\x82\x1e\xe8MY\x89\x1bw\x15\\\x80\xd7\x30\x1f\x6\x3U\x1d#\x4\x18\x30\x16\x80\x14\xc8\x88\x19\xff\t\xe2\xc6T\x82\x1e\xe8MY\x89\x1bw\x15\\\x80\xd7\x30\x12\x6\x3U\x1d\x13\x1\x1\xff\x4\b0\x6\x1\x1\x1\x2\x1\0\x30\r\x6\t*\x86H\x86\xf7\r\x1\x1\v\x5\0\x3\x82\x1\x1\0)a\xd5g\xba\x32\x8e\"\xef\x9e\x16SC_\xa0\xc2L\xf5)\xb8#\xfc\xe4\x8bP,\xe1_B\xe5\xdc\xd9I\xa8\fU\xb8\xf7O\x1c\xabXA\xd9\xb3o\x92\x9c\x9b\xcb\xf5\xa9.\xdc\xddo\x99\fz\xf0\xce\x10S\x99\x44\x34qtL7\x5\x90\x65\x8a&\xa8\xd0\xa0\xa4~\xf(\xb2\x45\xce\xe2\x19\xa4\x95\x91/\x8b\x1d!jP\xa8\x15\xfat\x97#\xac\ns5ZG`\xc1\x38\x43\x8c\xa7X\xe;\xd5\xe9\x9bi^l*b\xdf\x8d\x65\xdc\x39\x44\x41\x4V\nR\x97\xed\x7f\x34\x14\x13\xc2J\xf0\xec\x19\x9fm\xd6\xe7[\xae\xe8\x91>\x10 .4\xdd\xf7\x39\xda\x39\xe2\xff\x6\xa7\xd2;\xca\xbc\xd1`\xc8%1\xa4\xa8\xca\x1b\xabZ\xff~\xb3\x5X\xe7\x91-\xe2\x19te\x8a\xe3mY\x19w\x12\x35\xd8\x2x_\x88\x64m\x98\xd0\xf3\x16\x41\xdch\xf1\xbb\x38!\xa2$6\xd6\xe3[1n>QIC\x85Gn@\t\xd8\xd1@Vb\xfe\xfa\xc3(\xd4O\x9f\xfd\xf7>\x82\b)"
+0\MessageSecurityMode=3
+0\SecurityPolicy=http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256
+0\NoOfUserIdentityTokens=2
+0\UserIdentityToken0.PolicyId=UserPassword_Encrypted
+0\UserIdentityToken0.TokenType=1
+0\UserIdentityToken0.IssuedTokenType=
+0\UserIdentityToken0.IssuerEndpointUrl=
+0\UserIdentityToken0.SecurityPolicyUri=http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256
+0\UserIdentityToken1.PolicyId=UserPassword
+0\UserIdentityToken1.TokenType=1
+0\UserIdentityToken1.IssuedTokenType=
+0\UserIdentityToken1.IssuerEndpointUrl=
+0\UserIdentityToken1.SecurityPolicyUri=http://opcfoundation.org/UA/SecurityPolicy#None
+0\TransportProfileUri=http://opcfoundation.org/UA-Profile/Transport/uatcp-uasc-uabinary
+0\SecurityLevel=32
+0\DisplayName=OPCUAServer@CC100-5A1614
+0\ReverseConnect=false
+0\ClientEndpointUrl=
+0\UserTokenType=1
+0\SessionName=urn:SE-LT-PF3HY22R:UnifiedAutomation:UaExpert
+0\DiscoveryHost=
+0\UserName=admin
+0\StorePassword=true
+0\CertificateFile=
+0\PrivateKeyFile=
+0\PkiStoreIndex=0
+0\Namespaces\0=http://opcfoundation.org/UA/
+0\Namespaces\1=urn:CC100-5A1614:WAGO:WAGO%20751-9301%20Compact%20Controller%20100:OPCUA:Server
+0\Namespaces\2=http://opcfoundation.org/UA/DI/
+0\Namespaces\3=http://PLCopen.org/OpcUa/IEC61131-3/
+0\Namespaces\4=CODESYSSPV3/3S/IecVarAccess
+
+[Documents]
+Data%20Access%20View\DocumentType=Data Access View
+Data%20Access%20View\DocumentSettings\headerState=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x3G\0\0\0\t\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x84\0\0\0\0\0\0\0\t\0\0\0'\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\0\0\0\0)
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\publishingInterval=500
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\lifetimeCount=2400
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\maxKeepAliveCount=10
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\maxNotificationsPerPublish=0
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\priority=0
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\publishingEnabled=true
+Data%20Access%20View\DocumentSettings\Items\000\019\DisplayName=Current_PV
+Data%20Access%20View\DocumentSettings\Items\000\019\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.Current_PV"
+Data%20Access%20View\DocumentSettings\Items\000\019\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\019\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\019\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\019\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\019\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\020\DisplayName=Energy_PV
+Data%20Access%20View\DocumentSettings\Items\000\020\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.Energy_PV"
+Data%20Access%20View\DocumentSettings\Items\000\020\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\020\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\020\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\020\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\020\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\021\DisplayName=LocalDateAndTime
+Data%20Access%20View\DocumentSettings\Items\000\021\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.LocalDateAndTime"
+Data%20Access%20View\DocumentSettings\Items\000\021\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\021\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\021\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\021\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\021\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\022\DisplayName=Power_PV
+Data%20Access%20View\DocumentSettings\Items\000\022\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.Power_PV"
+Data%20Access%20View\DocumentSettings\Items\000\022\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\022\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\022\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\022\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\022\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\023\DisplayName=Voltage_PV
+Data%20Access%20View\DocumentSettings\Items\000\023\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.Voltage_PV"
+Data%20Access%20View\DocumentSettings\Items\000\023\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\023\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\023\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\023\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\023\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\024\DisplayName=dtDateAndYear
+Data%20Access%20View\DocumentSettings\Items\000\024\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.dtDateAndYear"
+Data%20Access%20View\DocumentSettings\Items\000\024\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\024\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\024\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\024\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\024\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\025\DisplayName=dtDateNow
+Data%20Access%20View\DocumentSettings\Items\000\025\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.dtDateNow"
+Data%20Access%20View\DocumentSettings\Items\000\025\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\025\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\025\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\025\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\025\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\026\DisplayName=iDay
+Data%20Access%20View\DocumentSettings\Items\000\026\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.iDay"
+Data%20Access%20View\DocumentSettings\Items\000\026\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\026\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\026\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\026\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\026\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\027\DisplayName=iHourNow
+Data%20Access%20View\DocumentSettings\Items\000\027\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.iHourNow"
+Data%20Access%20View\DocumentSettings\Items\000\027\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\027\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\027\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\027\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\027\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\028\DisplayName=iMonth
+Data%20Access%20View\DocumentSettings\Items\000\028\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.iMonth"
+Data%20Access%20View\DocumentSettings\Items\000\028\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\028\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\028\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\028\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\028\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\029\DisplayName=iYear
+Data%20Access%20View\DocumentSettings\Items\000\029\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.iYear"
+Data%20Access%20View\DocumentSettings\Items\000\029\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\029\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\029\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\029\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\029\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\030\DisplayName=rEffekttrinn_1
+Data%20Access%20View\DocumentSettings\Items\000\030\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.rEffekttrinn_1"
+Data%20Access%20View\DocumentSettings\Items\000\030\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\030\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\030\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\030\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\030\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\031\DisplayName=rEffekttrinn_2
+Data%20Access%20View\DocumentSettings\Items\000\031\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.rEffekttrinn_2"
+Data%20Access%20View\DocumentSettings\Items\000\031\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\031\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\031\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\031\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\031\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\032\DisplayName=rMaxDayEffekttrinn_1
+Data%20Access%20View\DocumentSettings\Items\000\032\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.rMaxDayEffekttrinn_1"
+Data%20Access%20View\DocumentSettings\Items\000\032\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\032\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\032\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\032\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\032\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\033\DisplayName=rMaxDayEffekttrinn_2
+Data%20Access%20View\DocumentSettings\Items\000\033\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.rMaxDayEffekttrinn_2"
+Data%20Access%20View\DocumentSettings\Items\000\033\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\033\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\033\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\033\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\033\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\034\DisplayName=rMaxMothEffekttrinn_1
+Data%20Access%20View\DocumentSettings\Items\000\034\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.rMaxMothEffekttrinn_1"
+Data%20Access%20View\DocumentSettings\Items\000\034\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\034\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\034\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\034\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\034\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\035\DisplayName=rMaxMothEffekttrinn_2
+Data%20Access%20View\DocumentSettings\Items\000\035\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.rMaxMothEffekttrinn_2"
+Data%20Access%20View\DocumentSettings\Items\000\035\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\035\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\035\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\035\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\035\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\036\DisplayName=todClokNow
+Data%20Access%20View\DocumentSettings\Items\000\036\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.todClokNow"
+Data%20Access%20View\DocumentSettings\Items\000\036\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\036\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\036\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\036\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\036\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\037\DisplayName=xTestTime
+Data%20Access%20View\DocumentSettings\Items\000\037\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL.xTestTime"
+Data%20Access%20View\DocumentSettings\Items\000\037\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\037\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\037\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\037\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\037\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\043\DisplayName=PWR_Oppdater
+Data%20Access%20View\DocumentSettings\Items\000\043\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_HKS.PWR_Oppdater"
+Data%20Access%20View\DocumentSettings\Items\000\043\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\043\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\043\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\043\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\043\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\044\DisplayName=PWR_iDagGyldig
+Data%20Access%20View\DocumentSettings\Items\000\044\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_HKS.PWR_iDagGyldig"
+Data%20Access%20View\DocumentSettings\Items\000\044\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\044\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\044\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\044\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\044\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\045\DisplayName=PWR_iDagNettleieEKSmva
+Data%20Access%20View\DocumentSettings\Items\000\045\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_HKS.PWR_iDagNettleieEKSmva"
+Data%20Access%20View\DocumentSettings\Items\000\045\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\045\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\045\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\045\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\045\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\046\DisplayName=PWR_iMorgenGyldig
+Data%20Access%20View\DocumentSettings\Items\000\046\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_HKS.PWR_iMorgenGyldig"
+Data%20Access%20View\DocumentSettings\Items\000\046\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\046\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\046\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\046\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\046\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\047\DisplayName=PWR_iMorgenNettleieEKSmva
+Data%20Access%20View\DocumentSettings\Items\000\047\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_HKS.PWR_iMorgenNettleieEKSmva"
+Data%20Access%20View\DocumentSettings\Items\000\047\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\047\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\047\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\047\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\047\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\095\DisplayName=Last_1_gangerUtkoblet
+Data%20Access%20View\DocumentSettings\Items\000\095\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_1_gangerUtkoblet"
+Data%20Access%20View\DocumentSettings\Items\000\095\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\095\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\095\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\095\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\095\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\096\DisplayName=Last_1_kobletUt
+Data%20Access%20View\DocumentSettings\Items\000\096\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_1_kobletUt"
+Data%20Access%20View\DocumentSettings\Items\000\096\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\096\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\096\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\096\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\096\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\097\DisplayName=Last_1_maksUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\097\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_1_maksUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\097\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\097\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\097\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\097\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\097\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\098\DisplayName=Last_1_minInnkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\098\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_1_minInnkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\098\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\098\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\098\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\098\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\098\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\099\DisplayName=Last_1_minUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\099\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_1_minUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\099\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\099\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\099\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\099\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\099\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\100\DisplayName=Last_1_status
+Data%20Access%20View\DocumentSettings\Items\000\100\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_1_status"
+Data%20Access%20View\DocumentSettings\Items\000\100\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\100\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\100\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\100\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\100\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\101\DisplayName=Last_2_gangerUtkoblet
+Data%20Access%20View\DocumentSettings\Items\000\101\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_2_gangerUtkoblet"
+Data%20Access%20View\DocumentSettings\Items\000\101\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\101\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\101\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\101\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\101\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\102\DisplayName=Last_2_kobletUt
+Data%20Access%20View\DocumentSettings\Items\000\102\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_2_kobletUt"
+Data%20Access%20View\DocumentSettings\Items\000\102\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\102\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\102\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\102\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\102\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\103\DisplayName=Last_2_maksUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\103\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_2_maksUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\103\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\103\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\103\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\103\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\103\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\104\DisplayName=Last_2_minInnkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\104\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_2_minInnkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\104\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\104\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\104\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\104\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\104\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\105\DisplayName=Last_2_minUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\105\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_2_minUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\105\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\105\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\105\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\105\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\105\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\106\DisplayName=Last_2_status
+Data%20Access%20View\DocumentSettings\Items\000\106\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_2_status"
+Data%20Access%20View\DocumentSettings\Items\000\106\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\106\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\106\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\106\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\106\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\107\DisplayName=Last_3_gangerUtkoblet
+Data%20Access%20View\DocumentSettings\Items\000\107\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_3_gangerUtkoblet"
+Data%20Access%20View\DocumentSettings\Items\000\107\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\107\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\107\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\107\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\107\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\108\DisplayName=Last_3_kobletUt
+Data%20Access%20View\DocumentSettings\Items\000\108\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_3_kobletUt"
+Data%20Access%20View\DocumentSettings\Items\000\108\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\108\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\108\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\108\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\108\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\109\DisplayName=Last_3_maksUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\109\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_3_maksUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\109\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\109\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\109\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\109\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\109\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\110\DisplayName=Last_3_minInnkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\110\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_3_minInnkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\110\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\110\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\110\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\110\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\110\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\111\DisplayName=Last_3_minUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\111\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_3_minUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\111\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\111\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\111\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\111\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\111\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\112\DisplayName=Last_3_status
+Data%20Access%20View\DocumentSettings\Items\000\112\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_3_status"
+Data%20Access%20View\DocumentSettings\Items\000\112\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\112\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\112\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\112\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\112\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\113\DisplayName=Last_4_gangerUtkoblet
+Data%20Access%20View\DocumentSettings\Items\000\113\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_4_gangerUtkoblet"
+Data%20Access%20View\DocumentSettings\Items\000\113\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\113\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\113\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\113\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\113\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\114\DisplayName=Last_4_kobletUt
+Data%20Access%20View\DocumentSettings\Items\000\114\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_4_kobletUt"
+Data%20Access%20View\DocumentSettings\Items\000\114\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\114\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\114\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\114\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\114\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\115\DisplayName=Last_4_maksUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\115\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_4_maksUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\115\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\115\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\115\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\115\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\115\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\116\DisplayName=Last_4_minInnkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\116\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_4_minInnkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\116\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\116\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\116\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\116\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\116\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\117\DisplayName=Last_4_minUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\117\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_4_minUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\117\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\117\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\117\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\117\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\117\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\118\DisplayName=Last_4_status
+Data%20Access%20View\DocumentSettings\Items\000\118\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_4_status"
+Data%20Access%20View\DocumentSettings\Items\000\118\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\118\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\118\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\118\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\118\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\119\DisplayName=Last_5_gangerUtkoblet
+Data%20Access%20View\DocumentSettings\Items\000\119\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_5_gangerUtkoblet"
+Data%20Access%20View\DocumentSettings\Items\000\119\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\119\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\119\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\119\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\119\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\120\DisplayName=Last_5_kobletUt
+Data%20Access%20View\DocumentSettings\Items\000\120\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_5_kobletUt"
+Data%20Access%20View\DocumentSettings\Items\000\120\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\120\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\120\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\120\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\120\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\121\DisplayName=Last_5_maksUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\121\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_5_maksUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\121\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\121\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\121\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\121\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\121\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\122\DisplayName=Last_5_minInnkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\122\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_5_minInnkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\122\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\122\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\122\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\122\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\122\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\123\DisplayName=Last_5_minUtkoblingstid
+Data%20Access%20View\DocumentSettings\Items\000\123\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_5_minUtkoblingstid"
+Data%20Access%20View\DocumentSettings\Items\000\123\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\123\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\123\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\123\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\123\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\124\DisplayName=Last_5_status
+Data%20Access%20View\DocumentSettings\Items\000\124\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.Last_5_status"
+Data%20Access%20View\DocumentSettings\Items\000\124\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\124\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\124\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\124\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\124\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\125\DisplayName=dtDateLogg
+Data%20Access%20View\DocumentSettings\Items\000\125\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.dtDateLogg"
+Data%20Access%20View\DocumentSettings\Items\000\125\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\125\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\125\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\125\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\125\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\126\DisplayName=forbruk
+Data%20Access%20View\DocumentSettings\Items\000\126\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.forbruk"
+Data%20Access%20View\DocumentSettings\Items\000\126\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\126\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\126\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\126\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\126\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\127\DisplayName=forbrukSetpunkt
+Data%20Access%20View\DocumentSettings\Items\000\127\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.forbrukSetpunkt"
+Data%20Access%20View\DocumentSettings\Items\000\127\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\127\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\127\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\127\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\127\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\128\DisplayName=iLogg
+Data%20Access%20View\DocumentSettings\Items\000\128\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.iLogg"
+Data%20Access%20View\DocumentSettings\Items\000\128\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\128\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\128\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\128\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\128\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\129\DisplayName=iYearNow
+Data%20Access%20View\DocumentSettings\Items\000\129\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.iYearNow"
+Data%20Access%20View\DocumentSettings\Items\000\129\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\129\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\129\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\129\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\129\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\130\DisplayName=overforbruk
+Data%20Access%20View\DocumentSettings\Items\000\130\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.overforbruk"
+Data%20Access%20View\DocumentSettings\Items\000\130\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\130\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\130\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\130\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\130\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\131\DisplayName=rDeltaOverUseTolerance
+Data%20Access%20View\DocumentSettings\Items\000\131\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.rDeltaOverUseTolerance"
+Data%20Access%20View\DocumentSettings\Items\000\131\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\131\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\131\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\131\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\131\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\132\DisplayName=rkWMaxDay
+Data%20Access%20View\DocumentSettings\Items\000\132\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.rkWMaxDay"
+Data%20Access%20View\DocumentSettings\Items\000\132\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\132\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\132\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\132\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\132\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\133\DisplayName=rkWMaxHoure
+Data%20Access%20View\DocumentSettings\Items\000\133\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.rkWMaxHoure"
+Data%20Access%20View\DocumentSettings\Items\000\133\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\133\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\133\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\133\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\133\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\134\DisplayName=rkWMaxMoth
+Data%20Access%20View\DocumentSettings\Items\000\134\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.rkWMaxMoth"
+Data%20Access%20View\DocumentSettings\Items\000\134\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\134\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\134\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\134\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\134\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\135\DisplayName=rkWMaxYear
+Data%20Access%20View\DocumentSettings\Items\000\135\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.rkWMaxYear"
+Data%20Access%20View\DocumentSettings\Items\000\135\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\135\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\135\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\135\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\135\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\136\DisplayName=sLast_1_Navn
+Data%20Access%20View\DocumentSettings\Items\000\136\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.sLast_1_Navn"
+Data%20Access%20View\DocumentSettings\Items\000\136\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\136\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\136\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\136\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\136\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\137\DisplayName=sLast_2_Navn
+Data%20Access%20View\DocumentSettings\Items\000\137\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.sLast_2_Navn"
+Data%20Access%20View\DocumentSettings\Items\000\137\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\137\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\137\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\137\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\137\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\138\DisplayName=sLast_3_Navn
+Data%20Access%20View\DocumentSettings\Items\000\138\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.sLast_3_Navn"
+Data%20Access%20View\DocumentSettings\Items\000\138\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\138\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\138\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\138\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\138\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\139\DisplayName=sLast_4_Navn
+Data%20Access%20View\DocumentSettings\Items\000\139\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.sLast_4_Navn"
+Data%20Access%20View\DocumentSettings\Items\000\139\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\139\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\139\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\139\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\139\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\140\DisplayName=sLast_5_Navn
+Data%20Access%20View\DocumentSettings\Items\000\140\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.sLast_5_Navn"
+Data%20Access%20View\DocumentSettings\Items\000\140\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\140\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\140\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\140\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\140\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\000\141\DisplayName=todClockLogg
+Data%20Access%20View\DocumentSettings\Items\000\141\NodeId="ns=4;s=|var|WAGO 751-9301 Compact Controller 100.Application.GVL_Maksvokter.todClockLogg"
+Data%20Access%20View\DocumentSettings\Items\000\141\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\141\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\141\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\141\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\141\MonitoringParameters\SamplingInterval=300
+
+[Attribute%20Plugin]
+Act_OnOff_Checked=true
+
+[Reference%20Plugin]
+Act_OnOff_Checked=true
+Act_ShowHierarchical_Checked=true
+Act_ShowNonHierarchical_Checked=true
+Cmb_BrowseDirection_State=0
