@@ -1,0 +1,390 @@
+Received: from AM8PR04MB7969.eurprd04.prod.outlook.com (2603:10a6:20b:24c::17)
+ by VI1PR0402MB3392.eurprd04.prod.outlook.com with HTTPS; Wed, 5 Mar 2025
+ 12:24:39 +0000
+Received: from AM6P195CA0062.EURP195.PROD.OUTLOOK.COM (2603:10a6:209:87::39)
+ by AM8PR04MB7969.eurprd04.prod.outlook.com (2603:10a6:20b:24c::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8511.16; Wed, 5 Mar
+ 2025 12:24:24 +0000
+Received: from AMS0EPF000001B7.eurprd05.prod.outlook.com
+ (2603:10a6:209:87:cafe::e8) by AM6P195CA0062.outlook.office365.com
+ (2603:10a6:209:87::39) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8511.16 via Frontend Transport; Wed,
+ 5 Mar 2025 12:24:24 +0000
+Authentication-Results: spf=pass (sender IP is 2602:fd3f:3:ff02::59)
+ smtp.mailfrom=wago.discoursemail.com; dkim=pass (signature was verified)
+ header.d=discoursemail.com;dmarc=pass action=none
+ header.from=wago.discoursemail.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of wago.discoursemail.com
+ designates 2602:fd3f:3:ff02::59 as permitted sender)
+ receiver=protection.outlook.com; client-ip=2602:fd3f:3:ff02::59;
+ helo=mx-out-01a.sea2.discourse.cloud; pr=C
+Received: from mx-out-01a.sea2.discourse.cloud (2602:fd3f:3:ff02::59) by
+ AMS0EPF000001B7.mail.protection.outlook.com (2603:10a6:20f:fff4:0:10:0:b)
+ with Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id
+ 15.20.8511.15 via Frontend Transport; Wed, 5 Mar 2025 12:24:22 +0000
+Received: from localhost (unknown [IPv6:2602:fd3f:3:20f:0:242:ac11:e])
+	by mx-out-01a.sea2.discourse.cloud (Postfix) with ESMTP id 7010E1000B7
+	for <ekb@stormelektro.no>; Wed,  5 Mar 2025 12:24:21 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=discoursemail.com;
+	s=sea2; t=1741177461;
+	bh=Y/dxcgBdbO/DP1sTStDVsg3IxZQCuHuD5rs6dYLNbJY=;
+	h=Date:From:Reply-To:To:In-Reply-To:References:Subject:
+	 List-Unsubscribe:List-ID:List-Archive;
+	b=j9vH7ZqMf0T44Syl3ouFGwkdwt8mWm1QjCuATHY3gwAW6hSFoY/vqIbaIKglUV2at
+	 WHrtULCp+aq4rKOrA1mRYbR4KoHKIsAkCUqcLwjsgCJXr1y89+xdZWk+mIg/eqOu9D
+	 K+pBHgfMOfvHk53JYqK2EYl23gaWRPI8xbF61aHlGVSdk5crTS8BaL9TZdqxqHU3Sh
+	 SJEi8dLYwPq841tMgA/Xhb7uJ+fVFhHMvysUnK2fMmw+mkRLiuZiV/3iUV7jznzI4l
+	 XTqtLm11r/YovfwRhV3BN5bgXzEpjLS8Dqe1MfWJ/MOmOv6HT9BhEVHNaIq2Jjzd0s
+	 xzqyZPM3eyI5Q==
+Date: Wed, 05 Mar 2025 12:24:21 +0000
+From: =?UTF-8?B?RmxvcmlhbiBNw7xsbGVyIHZpYSBXQUdPIE9wZW4gU291cmNlIENvbW11bml0?= =?UTF-8?B?eQ==?= <notifications@wago.discoursemail.com>
+Reply-To: WAGO Open Source Community <incoming+c0ed2136eebeacc59823a27e210f9a9f@wago.discoursemail.com>
+To: ekb@stormelektro.no
+Message-ID: <discourse/post/3597@www.wago.community>
+In-Reply-To: <discourse/post/3594@www.wago.community>
+References: <discourse/post/3491@www.wago.community>
+ <discourse/post/3594@www.wago.community>
+Subject: [WAGO Open Source Community] [CODESYS] OPC UA Certificates
+Content-Type: multipart/alternative;
+	boundary="--==_mimepart_67c8427541de3_486538cc10032ea"; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+List-Unsubscribe: <https://www.wago.community/email/unsubscribe/7a6f320d52d5997809f120f0340245f576df9c5463217044c9ea217b4a0b823d>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Discourse-Post-Id: 3597
+X-Discourse-Topic-Id: 1614
+X-Discourse-Tags: cc100
+X-Discourse-Category: CODESYS
+X-Auto-Response-Suppress: All
+Auto-Submitted: auto-generated
+Precedence: list
+List-ID: WAGO Open Source Community | CODESYS <codesys.www.wago.community>
+List-Archive: https://www.wago.community/t/opc-ua-certificates/1614
+Feedback-ID: wago:user_replied:discoursemail
+Return-Path: incoming+verp-08f18a612059ad49eede0b76f06ed53c@wago.discoursemail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 05 Mar 2025 12:24:23.7350
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 9c1d6e5f-1689-4442-9f7d-08dd5be0a9e0
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: bad71ed4-dc46-4650-a582-bc09d90cc837:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AMS0EPF000001B7:EE_|AM8PR04MB7969:EE_|VI1PR0402MB3392:EE_
+X-MS-Exchange-Organization-AuthSource: AMS0EPF000001B7.eurprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 9c1d6e5f-1689-4442-9f7d-08dd5be0a9e0
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;ARA:13230040|39142699007|69100299015|31052699007|4022899009|8096899003|13003099007|4076899003;
+X-Forefront-Antispam-Report: CIP:2602:fd3f:3:ff02::59;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mx-out-01a.sea2.discourse.cloud;PTR:mx-out-01a.sea2.discourse.cloud;CAT:NONE;SFS:(13230040)(39142699007)(69100299015)(31052699007)(4022899009)(8096899003)(13003099007)(4076899003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Mar 2025 12:24:22.8756
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9c1d6e5f-1689-4442-9f7d-08dd5be0a9e0
+X-MS-Exchange-CrossTenant-Id: bad71ed4-dc46-4650-a582-bc09d90cc837
+X-MS-Exchange-CrossTenant-AuthSource: AMS0EPF000001B7.eurprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM8PR04MB7969
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:17.0609590
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8511.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	dwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(831239)(255002)(410001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?aVBYRHplM004S0U1VzFhT2s0M3lybnI0Q0V6eWVxQ2VjTW9FeUFPYWtZczRJ?=
+ =?utf-8?B?OGpDTnpuTmE1RXNUanhPZTBjOVR6Tm1iVk9nVUtJTzlMM2EvQlBKRkhJMFRx?=
+ =?utf-8?B?T1J3NmNBR01YY25hY0JZbkFybDk2MU92Zjh5WGJ1K05objA5d2VrTllOaGRS?=
+ =?utf-8?B?VmFXUjNwTmZGRkVjelVtYU1mdWdTaWJPSnlJUXVrMnBaUjc2bU1jNlRiQjZ3?=
+ =?utf-8?B?MzZuU2xPc3o0VVlGcTZTcHZLZGU2ZHBhMkQzMmZyNmJzMkNFVnBBVUxnSm5T?=
+ =?utf-8?B?b1JQanJDODFHVldSQXFqamtXc2t5eUs1QjBKRW1ya0dyL3FiNUpnc3d3dWJm?=
+ =?utf-8?B?d3FlR3dhMzlEbXBheWJwM0Q3UTZNR1I5Uzh2WFB3QUN0Z014eGs1THMxbEdK?=
+ =?utf-8?B?UFI3V3NlVWlLdnY1MGtrc21td2xpMHpQUWlWODkyVVd6WjZSd0J2SzB2Y0ov?=
+ =?utf-8?B?Nk1JeXJ0MTkzUzE3Vjc4N3pMTldTMU5DOWhnZ0tGb1pnTTR2YVVadzQ1cGtT?=
+ =?utf-8?B?dGxYZlhiSExtamY4THJKZTVlOHJBdDBaUjBNUHI5VGkwQXVOUC9LTXhqTGZD?=
+ =?utf-8?B?dDM3cjRBR3Y0bDNUeitpeXBnYjcxT3daS05McUc2bjRDYlJ0anlEcW5EM0ls?=
+ =?utf-8?B?NVNXbkJqRkFKK01ocS9hUXBlK09OejhhaTdqUnhRT2N2cEF4SEJQRUp5a3JO?=
+ =?utf-8?B?NDVQVHBvVEw5S3JVSGlOOWhQKzR5c3hhZnFmZnZJZ0NOOG5vdU1GcmV6UTd4?=
+ =?utf-8?B?dGhERDJWajVBYVVpWWNoSUFQTmhnS3I3VlNnd1Y2UE5WekZPTEo2V3NpYU9V?=
+ =?utf-8?B?amRKOS81M29aK3JWWEwxOTlzS2lITEtZS05LQWxMVGd5UGp4LzJsdkZGc3pU?=
+ =?utf-8?B?YW9jRjZrbzhXYVd4enNJQUdsMkY2Nkh5dzJsV2JXaHdYQTR3ckFUMmNCKzh0?=
+ =?utf-8?B?Y2dhZmluajZNMG1nSGxUNzVmdVBjV1k2YU84Mm5DMGVhdzVJdm1ZT0s4Q08z?=
+ =?utf-8?B?ZEkxSW5TdVdlTFlrMnorb0dnNEo1bWFZbDlXZ05pSzluaDkydVBTajRTUkh4?=
+ =?utf-8?B?cEpOZWYxcFczYS9JTTB5MTBlWm9OVEkyMWdZejg5S2pIMERETjNDamw0VFda?=
+ =?utf-8?B?NEp1WHBicEdQMGpXWlVLRkkyTXU3ZGdEQ0VRb0RYd3pTM3E5c3lYNnE2Si9k?=
+ =?utf-8?B?UzZQNGU2aHVWajdNaXM5a3BEQkwzeVI5dnZPZjNzdVJOYnl5dHFOQ1Z2dkto?=
+ =?utf-8?B?ZmthWUcyWURNcVpLaDFsc0kzdjVCcXlpU2UvZUlzWFBsclNXZVBITUs5OHJh?=
+ =?utf-8?B?ZmNGaTAvbExSSjc2cmpMclo3QlBVTStBVkNhdElxeTJJYVV6ZDhYMFF0cDlZ?=
+ =?utf-8?B?K0lGVng3bDF3TTZ2M2VsWXRjd01URnh0Q0h1Vkt3eUV2ZVovZS9kWHRZRHBj?=
+ =?utf-8?B?TlB5cUtwTU9PVTljS2k4NHlNN1lYS2l5V1pWc3lZbWJtcDBxcW04U3RpSmJT?=
+ =?utf-8?B?eDRMTUNMdWExQytQTXJTdlJWeWJ4eVFvWVA0Mkg2TmE1cVY5RmRkT0NlQVMv?=
+ =?utf-8?B?d3NjZWFTdjhyRGErbFZXbjVlakY1MWIyaVZLaW03NGtJd2w5V3hnU214WmVP?=
+ =?utf-8?B?akUwR1hmb1BlZnU4ZkRVWm5xdDk1cW9xOWFQZjBiS0c2L0NtU1loR2tiVEUz?=
+ =?utf-8?B?b2RsM0hrUFExSHoyRHFRL3hlbDFMVWk1NVJtQ1pYNU5zNHNJd2t1NGk2SWw5?=
+ =?utf-8?B?WkxsdVpVVnhSN3ZWWnBGc2JGTk5jbTY4SXZIVlZGbVFFczNrMDNpeDhPWVQ2?=
+ =?utf-8?B?MVlCcVRITGFZaStWd0ROZWxqUnN5RzdIb3FMRTZVT0NSRndrVWpEOWJmbjNl?=
+ =?utf-8?B?ZjAyN0NHQmF1eGtlSEsxMFdQQzUzREpOMVJWM2JFcEZGZ0dHSEJ3QmJjY3hV?=
+ =?utf-8?B?L1lpN0ZUTUdKQkYwUFNjN2g0QzR3NTNrQWdGTWVSZmcxdlVxOXk1d2ZmYTNU?=
+ =?utf-8?B?eXJhUHhCMmdDd3lXOTlvYzI2QTBvTEpwb3ZIeHRHVDVNaTVIL0RJR3Y5Y2x0?=
+ =?utf-8?B?RlZ3c3BzNWRQcjFOZ3Rmd0RtU0YxZncrMXVidlVvVkhxQW40M2VzU0V0YmE3?=
+ =?utf-8?B?aUp1Q1RjekpFR2VOTUR2bjhVVXpTcHpuWm92WE9od3lkcGliRERVd3Vra0dq?=
+ =?utf-8?B?ckJKSkx2N2xJTEtrWUlZcWtPNkhYTUp6VVMzRFlyeDkwNlhHcmNvR0FtWlNx?=
+ =?utf-8?B?emlqR2lMRUpRaitQUkxjajBwMHU5ZjFER1V2U2hjaEc3RHVXUkdWenVPQzZM?=
+ =?utf-8?B?ZU1KTk85bit3L1UxZm5vSTd1VURCai9mZmJGcmhUSHpIQ1crS2FJMWhvUFpu?=
+ =?utf-8?B?TC9PMitkKzd0L1RNbUM1OVlSMW9jM2JuRG1aNHJIMkFiSEFENzM5Ylo0Wkdk?=
+ =?utf-8?B?bzMzUXEvQm02M1dlcURyWm5mb2ZIajJiNTk1WVN0Zm5OWUtMWVIvRnFvNDQ3?=
+ =?utf-8?B?NEhzVmg2Z1Q1c252OGF2OHhVT2lrdWQwc28vVHRJQndCa0lBZW1ZdHVUdGtq?=
+ =?utf-8?B?cUNZWTZjSVFaRHJYUXBpaHBDZk1Ea2cycUsrVXVSREZIVEQwUHNXTFIrZ2dT?=
+ =?utf-8?B?bmswZG03MTRick1YcHZ6V0V5MDVPRUFIVml0QVN1WW9iMUZNd3d6MFN2RmNH?=
+ =?utf-8?B?cktDaXYwSVdaM2U1bFp0Z01uRTBPZ0s1dldyTURPOWc0ODUwalE0cUk5ZHht?=
+ =?utf-8?B?MkdBbFh0UDlVYkFSb2dUdit4NjdQNFA5M2ZpK0tZZkYvQXNzZXBkOTRJVVBH?=
+ =?utf-8?B?eUpSU01WTGEyZ0NlZVdlZmZZWkxBTk5uU3A1dWxtVzduOTVsblVxVmVmSXRi?=
+ =?utf-8?Q?LW4DWbppybuprgSWQhOflJQ2yKy3Bd5e6H3VfRno=3D?=
+MIME-Version: 1.0
+
+----==_mimepart_67c8427541de3_486538cc10032ea
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Hello espenbo,
+
+GDS push only works with e!COCKPIT based firmware and the WAGO OPC UA Ser=
+ver. The CODESYS OPC UA Server doesn=C2=B4t yet support this function. Ac=
+cording to the CODESYS RoadMap, the function will be implemented with V3.=
+5 SP22 (2026).
+
+https://de.codesys.com/fileadmin/data/Images/System/Roadmap_2025-Q1.pdf
+
+CC100 --> does not work, as only CODESYS-based firmware exists here
+PFC 100 G1 (750-810x) --> works with e!COCKPIT based firmware
+PFC 100 G2 (750-811x) --> does not work, as only CODESYS-based firmware e=
+xists here
+PFC 200 --> works with e!COCKPIT based firmware
+PFC 300 --> does not work, as only CODESYS-based firmware exists here
+
+
+
+
+
+---
+[Visit Topic](https://www.wago.community/t/opc-ua-certificates/1614/6) or=
+ reply to this email to respond.
+
+To unsubscribe from these emails, [click here](https://www.wago.community=
+/email/unsubscribe/7a6f320d52d5997809f120f0340245f576df9c5463217044c9ea21=
+7b4a0b823d).
+
+----==_mimepart_67c8427541de3_486538cc10032ea
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"en" xml=
+:lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+   =20
+    <meta name=3D"color-scheme" content=3D"light dark">
+    <meta name=3D"supported-color-schemes" content=3D"light dark">
+   =20
+    <!-- prevent ios zooming + autoscaling -->
+    <meta name=3D"x-apple-disable-message-reformatting">
+    <title></title>
+  </head>
+
+  <body style=3D"line-height:1.4;text-align:left" dir=3D"ltr">
+    <!--[if mso]>
+      <style type=3D"text/css">
+        body,
+        table,
+        td,
+        th,
+        h1,
+        h2,
+        h3 {
+          font-family: Arial, sans-serif !important;
+        }
+      </style>
+    <![endif]-->
+
+   =20
+   =20
+    <div>
+
+  <div></div>
+
+    <div style=3D"margin-bottom:25px">
+  <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+    <tbody><tr>
+      <td style=3D"vertical-align:top;width:55px">
+        <img src=3D"https://avatars.discourse-cdn.com/v4/letter/w/a6a055/45=
+.png" title=3D"WagoFlo" width=3D"45" height=3D"45">
+      </td>
+      <td>
+          <a rel=3D"nofollow" href=3D"https://www.wago.community/u/wagoflo"=
+ target=3D"_blank" style=3D"color:#006699;font-size:13px;font-family:'lucid=
+a grande',tahoma,verdana,arial,sans-serif;text-decoration:none;font-weight:=
+bold">WagoFlo</a>
+          <span style=3D"font-size:13px;font-family:'lucida grande',tahoma,=
+verdana,arial,sans-serif;text-decoration:none;margin-left:5px;color:#999">(=
+WAGO)</span>
+        <br>
+        <span style=3D"text-align:right;color:#999999;padding-right:5px;fon=
+t-family:'lucida grande',tahoma,verdana,arial,sans-serif;font-size:11px">Ma=
+rch 5</span>
+      </td>
+    </tr>
+  </tbody></table>
+  <div style=3D"padding-top:5px" dm=3D"body"><p style=3D"margin-top:0;borde=
+r:0">Hello espenbo,</p>
+<p style=3D"margin-top:0;border:0">GDS push only works with e!COCKPIT based=
+ firmware and the WAGO OPC UA Server. The CODESYS OPC UA Server doesn=C2=B4=
+t yet support this function. According to the CODESYS RoadMap, the function=
+ will be implemented with V3.5 SP22 (2026).</p>
+<div data-onebox-src=3D"https://de.codesys.com/fileadmin/data/Images/System=
+/Roadmap_2025-Q1.pdf" style=3D"border:5px solid #e9e9e9;padding:12px 25px 1=
+2px 12px;margin-bottom:10px">
+  <div>
+
+      <a href=3D"https://de.codesys.com/fileadmin/data/Images/System/Roadma=
+p_2025-Q1.pdf" target=3D"_blank" rel=3D"noopener nofollow ugc" style=3D"col=
+or:#006699;text-decoration:none;font-weight:bold">de.codesys.com</a>
+  </div>
+
+  <div style=3D"clear:both">
+    <a href=3D"https://de.codesys.com/fileadmin/data/Images/System/Roadmap_=
+2025-Q1.pdf" target=3D"_blank" rel=3D"noopener nofollow ugc" style=3D"text-=
+decoration:none;font-weight:bold;color:#006699"><span></span></a>
+
+<h3 style=3D"font-size:1.17em;margin:30px 0 10px"><a href=3D"https://de.cod=
+esys.com/fileadmin/data/Images/System/Roadmap_2025-Q1.pdf" target=3D"_blank=
+" rel=3D"noopener nofollow ugc" style=3D"text-decoration:none;font-weight:b=
+old;color:#006699">Roadmap_2025-Q1.pdf</a></h3>
+
+  <p style=3D"margin-top:0;border:0">1672.93 KB</p>
+
+  </div>
+
+  <div style=3D"color:#919191">
+   =20
+   =20
+  </div>
+
+  <div style=3D"clear:both"></div>
+</div>
+
+<p style=3D"margin-top:0;border:0">CC100 =E2=86=92 does not work, as only C=
+ODESYS-based firmware exists here<br>
+PFC 100 G1 (750-810x) =E2=86=92 works with e!COCKPIT based firmware<br>
+PFC 100 G2 (750-811x) =E2=86=92 does not work, as only CODESYS-based firmwa=
+re exists here<br>
+PFC 200 =E2=86=92 works with e!COCKPIT based firmware<br>
+PFC 300 =E2=86=92 does not work, as only CODESYS-based firmware exists here=
+</p></div>
+</div>
+
+
+
+
+
+
+  <div style=3D"color:#666"><hr style=3D"background-color:#ddd;height:1px;b=
+order:1px">
+<p><a href=3D"https://www.wago.community/t/opc-ua-certificates/1614/6" styl=
+e=3D"font-weight:bold;text-decoration:none;color:#FFFFFF;background-color:#=
+2F70AC;border-top:4px solid #2F70AC;border-right:6px solid #2F70AC;border-b=
+ottom:4px solid #2F70AC;border-left:6px solid #2F70AC;display:inline-block"=
+>Visit Topic</a> or reply to this email to respond.</p></div>
+  <div style=3D"color:#666"><p>To unsubscribe from these emails, <a href=3D=
+"https://www.wago.community/email/unsubscribe/7a6f320d52d5997809f120f034024=
+5f576df9c5463217044c9ea217b4a0b823d" style=3D"text-decoration:none;font-wei=
+ght:bold;color:#666">click here</a>.</p></div>
+
+</div>
+
+<div itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage" style=3D"di=
+splay:none">
+  <div itemprop=3D"action" itemscope=3D"" itemtype=3D"http://schema.org/Vie=
+wAction">
+    <link itemprop=3D"url" href=3D"https://www.wago.community/t/opc-ua-cert=
+ificates/1614/6">
+    <meta itemprop=3D"name" content=3D"Read full topic">
+  </div>
+</div>
+
+
+
+    <!-- prevent Gmail on iOS font size manipulation -->
+    <div style=3D"display:none;white-space:nowrap;font:15px courier;line-he=
+ight:0">
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </div>
+   =20
+    <style>
+      @media (prefers-color-scheme: dark) {
+        html {
+          background: #151515 !important;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        span,
+        td {
+          color: inherit !important;
+        }
+
+        [data-stripped-secure-media] {
+          border-color: #454545 !important;
+        }
+
+        [data-stripped-secure-upload] {
+          border-color: #454545 !important;
+        }
+
+        [dm=3D'text-color'] {
+          color: #dddddd;
+        }
+
+        [dm=3D'header'] {
+          background: #151515 !important;
+        }
+
+        [dm=3D'topic-body'] {
+          background: #151515 !important;
+          border-bottom: 1px solid #454545 !important;
+        }
+
+        [dm=3D'triangle'] {
+          border-top-color: #151515 !important;
+        }
+
+        [dm=3D'body'] {
+          background: #222222 !important;
+          color: #dddddd !important;
+        }
+
+        [dm=3D'body_primary'] {
+          background: #062e3d !important;
+          color: #dddddd !important;
+        }
+
+        [dm=3D'bg'] {
+          background: #323232 !important;
+          border-color: #454545 !important;
+        }
+      }
+    </style>
+   =20
+ =20
+
+</body></html>=
+
+----==_mimepart_67c8427541de3_486538cc10032ea--

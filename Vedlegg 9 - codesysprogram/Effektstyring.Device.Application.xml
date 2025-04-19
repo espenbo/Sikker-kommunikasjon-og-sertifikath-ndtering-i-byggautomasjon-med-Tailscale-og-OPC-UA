@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.4.0.0" runtimeid="3.5.19.5" libversion="4.4.0.0" compiler="3.5.19.70" lmm="3.5.19.70" profile="CODESYS V3.5 SP19 Patch 7+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Effektstyring" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_DATE" size="4" swapsize="4" typeclass="Date" iecname="DATE" />
+    <TypeSimple name="T_DATE_AND_TIME" size="4" swapsize="4" typeclass="DateAndTime" iecname="DATE_AND_TIME" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+    <TypeSimple name="T_STRING" size="81" swapsize="0" typeclass="String" iecname="STRING" />
+    <TypeSimple name="T_TIME_OF_DAY" size="4" swapsize="4" typeclass="TimeOfDay" iecname="TIME_OF_DAY" />
+    <TypeArray name="T_ARRAY__0__23__OF_REAL" size="96" nativesize="96" typeclass="Array" iecname="ARRAY [0..23] OF REAL" basetype="T_REAL">
+      <ArrayDim minrange="0" maxrange="23" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__1__12__OF_REAL" size="48" nativesize="48" typeclass="Array" iecname="ARRAY [1..12] OF REAL" basetype="T_REAL">
+      <ArrayDim minrange="1" maxrange="12" />
+    </TypeArray>
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="Current_PV" type="T_REAL" access="ReadWrite" />
+        <Node name="dtDateAndYear" type="T_DATE" access="ReadWrite" />
+        <Node name="dtDateNow" type="T_DATE" access="ReadWrite" />
+        <Node name="Energy_PV" type="T_REAL" access="ReadWrite" />
+        <Node name="iDay" type="T_INT" access="ReadWrite" />
+        <Node name="iHourNow" type="T_INT" access="ReadWrite" />
+        <Node name="iMonth" type="T_INT" access="ReadWrite" />
+        <Node name="iYear" type="T_INT" access="ReadWrite" />
+        <Node name="LocalDateAndTime" type="T_DATE_AND_TIME" access="ReadWrite" />
+        <Node name="Power_PV" type="T_REAL" access="ReadWrite" />
+        <Node name="rEffekttrinn_1" type="T_REAL" access="ReadWrite" />
+        <Node name="rEffekttrinn_2" type="T_REAL" access="ReadWrite" />
+        <Node name="rMaxDayEffekttrinn_1" type="T_REAL" access="ReadWrite" />
+        <Node name="rMaxDayEffekttrinn_2" type="T_REAL" access="ReadWrite" />
+        <Node name="rMaxMothEffekttrinn_1" type="T_ARRAY__1__12__OF_REAL" access="ReadWrite" />
+        <Node name="rMaxMothEffekttrinn_2" type="T_ARRAY__1__12__OF_REAL" access="ReadWrite" />
+        <Node name="todClokNow" type="T_TIME_OF_DAY" access="ReadWrite" />
+        <Node name="Voltage_PV" type="T_REAL" access="ReadWrite" />
+        <Node name="xTestTime" type="T_BOOL" access="ReadWrite" />
+      </Node>
+      <Node name="GVL_HKS">
+        <Node name="PWR_iDagGyldig" type="T_BOOL" access="ReadWrite" />
+        <Node name="PWR_iDagNettleieEKSmva" type="T_ARRAY__0__23__OF_REAL" access="ReadWrite" />
+        <Node name="PWR_iMorgenGyldig" type="T_BOOL" access="ReadWrite" />
+        <Node name="PWR_iMorgenNettleieEKSmva" type="T_ARRAY__0__23__OF_REAL" access="ReadWrite" />
+        <Node name="PWR_Oppdater" type="T_BOOL" access="ReadWrite" />
+      </Node>
+      <Node name="GVL_Maksvokter">
+        <Node name="dtDateLogg" type="T_DATE" access="ReadWrite" />
+        <Node name="forbruk" type="T_REAL" access="ReadWrite" />
+        <Node name="forbrukSetpunkt" type="T_REAL" access="ReadWrite" />
+        <Node name="iLogg" type="T_INT" access="ReadWrite" />
+        <Node name="iYearNow" type="T_INT" access="ReadWrite" />
+        <Node name="Last_1_gangerUtkoblet" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_1_kobletUt" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_1_maksUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_1_minInnkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_1_minUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_1_status" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_2_gangerUtkoblet" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_2_kobletUt" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_2_maksUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_2_minInnkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_2_minUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_2_status" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_3_gangerUtkoblet" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_3_kobletUt" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_3_maksUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_3_minInnkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_3_minUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_3_status" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_4_gangerUtkoblet" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_4_kobletUt" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_4_maksUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_4_minInnkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_4_minUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_4_status" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_5_gangerUtkoblet" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_5_kobletUt" type="T_BOOL" access="ReadWrite" />
+        <Node name="Last_5_maksUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_5_minInnkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_5_minUtkoblingstid" type="T_REAL" access="ReadWrite" />
+        <Node name="Last_5_status" type="T_BOOL" access="ReadWrite" />
+        <Node name="overforbruk" type="T_REAL" access="ReadWrite" />
+        <Node name="rDeltaOverUseTolerance" type="T_REAL" access="ReadWrite" />
+        <Node name="rkWMaxDay" type="T_REAL" access="ReadWrite" />
+        <Node name="rkWMaxHoure" type="T_ARRAY__0__23__OF_REAL" access="ReadWrite" />
+        <Node name="rkWMaxMoth" type="T_ARRAY__1__12__OF_REAL" access="ReadWrite" />
+        <Node name="rkWMaxYear" type="T_REAL" access="ReadWrite" />
+        <Node name="sLast_1_Navn" type="T_STRING" access="ReadWrite" />
+        <Node name="sLast_2_Navn" type="T_STRING" access="ReadWrite" />
+        <Node name="sLast_3_Navn" type="T_STRING" access="ReadWrite" />
+        <Node name="sLast_4_Navn" type="T_STRING" access="ReadWrite" />
+        <Node name="sLast_5_Navn" type="T_STRING" access="ReadWrite" />
+        <Node name="todClockLogg" type="T_TIME_OF_DAY" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
