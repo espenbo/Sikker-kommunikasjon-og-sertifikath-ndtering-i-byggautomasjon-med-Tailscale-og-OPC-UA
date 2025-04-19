@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib.dates import date2num
 from datetime import datetime
-# Jeg har fått hjelp av KI til og lage skriptet 
+
 # Define tasks and their start and end dates
 tasks = [
     ("Forprosjektrapport", datetime(2025, 1, 27), datetime(2025, 3, 2)),
